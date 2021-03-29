@@ -43,6 +43,10 @@ cp ./src/css/common.css ./css/common.min.css
 
 - Step4: Look at the file `./css/common.min.css` and change the styles that you wish to. These changes will override the styles defined in `./css/main.min.css`.
 
-- Step5: Example can be seen at https://github.com/DeckerSU/komodo-explorers-install/tree/master/overlay/BNTN-explorer/node_modules/insight-ui-komodo/public
+- Step5: CTRL + F `KMD` in main.min.js and replace it with coin name
+
+- Step6: Example can be seen at https://github.com/DeckerSU/komodo-explorers-install/tree/master/overlay/BNTN-explorer/node_modules/insight-ui-komodo/public
+
+**Tip:** Easier to "mock" colors or alive explorer using chrome devtools and updating the common.mim.css file at the same time
 
 **Note:** Regarding `css` and `views` in the above directory; Don't replace the files from the patch with these files directly, you will lose the notarization enhancements. See what changes were made by comparing with the files in the patch and just make those changes.
