@@ -1,6 +1,6 @@
 // Source: public/src/js/app.js
 var testnet = false;
-var netSymbol = testnet ? 'TAZ' : 'KMD';
+var netSymbol = testnet ? 'NATURE' : 'NATURE';
 
 var defaultLanguage = localStorage.getItem('insight-language') || 'en';
 var defaultCurrency = localStorage.getItem('insight-currency') || netSymbol;
@@ -564,7 +564,7 @@ angular.module('insight.system').controller('HeaderController',
 
 // Source: public/src/js/controllers/index.js
 var TRANSACTION_DISPLAYED = 10;
-var BLOCKS_DISPLAYED = 5;
+var BLOCKS_DISPLAYED = 10;
 
 angular
   .module("insight.system")
