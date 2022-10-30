@@ -51,7 +51,7 @@ template {
 }
 
 a {
-    background: 0 0
+    background: #043608
 }
 
 a:active,
@@ -280,7 +280,7 @@ th {
     }
     .table td,
     .table th {
-        background-color: #fff !important
+        background-color: #04175d!important
     }
     .btn>.caret,
     .dropup>.btn>.caret {
@@ -451,7 +451,7 @@ h6 .small,
 .h6 .small {
     font-weight: 400;
     line-height: 1;
-    color: #999
+    color: #c70606
 }
 
 h1,
@@ -577,7 +577,7 @@ cite {
 }
 
 .text-muted {
-    color: #999
+    color: #f00
 }
 
 .text-primary {
@@ -1703,12 +1703,12 @@ th {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #ddd
+    border-top: 1px solid #eddd06
 }
 
 .table>thead>tr>th {
     vertical-align: bottom;
-    border-bottom: 2px solid #ddd
+    border-bottom: 2px solid #eddd06
 }
 
 .table>caption+thead>tr:first-child>th,
@@ -1757,7 +1757,7 @@ th {
 
 .table-striped>tbody>tr:nth-child(odd)>td,
 .table-striped>tbody>tr:nth-child(odd)>th {
-    background-color: #f9f9f9
+    background-color: #990437
 }
 
 .table-hover>tbody>tr:hover>td,
@@ -7104,7 +7104,7 @@ button.close {
 
 html,
 body {
-    color: #373D42;
+    color: #05f318;
     font-family: Ubuntu, sans-serif;
     height: 100%
 }
@@ -7121,7 +7121,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    color: #373D42;
+    color: #0c82e5;
     font-family: Ubuntu, sans-serif
 }
 
@@ -7328,7 +7328,7 @@ h6,
 }
 
 .navbar-default .navbar-brand {
-    color: #FFF;
+    color: #060000;
     padding: 9px 5px 0
 }
 
@@ -7412,7 +7412,7 @@ h6,
 .col-gray {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    background-color: #F4F4F4;
+    background-color: #6c3b03;
     border-radius: 5px;
     padding: 14px;
     border: 1px solid #eee
@@ -7448,8 +7448,8 @@ h6,
 }
 
 .block-id {
-    background-color: #373D42;
-    border: 3px solid #FFF;
+    background-color: #036cc3;
+    border: 3px solid #a90505;
     margin: 0 auto;
     width: 165px;
     color: #fff;
@@ -7483,7 +7483,7 @@ h6,
 .block-tx {
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    background-color: #F4F4F4;
+    background-color: #3e2801;
     border-radius: 2px;
     margin: 20px 0 10px;
     overflow: hidden;
@@ -7589,7 +7589,7 @@ h6,
 }
 
 #footer {
-    background-color: #373D42;
+    background-color: #850116;
     color: #fff;
     height: 51px;
     overflow: hidden
@@ -7619,7 +7619,7 @@ h6,
 }
 
 #footer .links a {
-    color: #ddd
+    color: #07ede2
 }
 
 #footer .links a.selected {
@@ -7967,9 +7967,9 @@ a.v_highlight_more {
     right: 0;
     z-index: 1000;
     position: absolute;
-    background-color: #def0f2;
+    background-color: #d78a09;
     border-color: #4555b1;
-    color: #2232c2
+    color: #06f1db
 }
 
 .secondary_navbar .container {
