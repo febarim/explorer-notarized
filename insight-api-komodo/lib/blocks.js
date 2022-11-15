@@ -368,7 +368,7 @@ BlockController.prototype.formatTimestamp = function (date) {
 };
 
 BlockController.prototype.getBlockReward = function (height) {
-  var subsidy = new BN(100 * 1e8);
+  var subsidy = new BN(10 * 1e8);
 
   /* Commented by Decker
 
