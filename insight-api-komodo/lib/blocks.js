@@ -33,7 +33,7 @@ function BlockController(options) {
     notary.pubkey.forEach(function (s) {
       self.notariesStrings[s] = {
         poolName: notary.notaryName,
-        url: "https://komodoplatform.com/"
+        url: "https://www.wizapp.online/"
       };
     });
   });
@@ -368,7 +368,7 @@ BlockController.prototype.formatTimestamp = function (date) {
 };
 
 BlockController.prototype.getBlockReward = function (height) {
-  var subsidy = new BN(10 * 1e8);
+  var subsidy = new BN(1 * 1e8);
 
   /* Commented by Decker
 
